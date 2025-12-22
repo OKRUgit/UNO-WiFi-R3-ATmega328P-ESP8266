@@ -2,19 +2,19 @@
 
 <br />
 
-This project is made for Arduino Uno WiFi is an Arduino Uno with an integrated WiFi module. Now you can use both module together communicating with each other using serial pins without modifying any firmware.
- 
+Этот проект создан для Arduino Uno WiFi — платы Arduino Uno со встроенным модулем Wi-Fi. Теперь вы можете использовать оба модуля вместе, обмениваясь данными через последовательные контакты без изменения прошивки.
+
 <img width="450px" height="350px" src="https://user-images.githubusercontent.com/23693439/118520926-ecec2680-b753-11eb-8ccb-41cf73a27d85.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" />
 
 
 
-Don't forget to change board options before uploading when switching.
+При переключении не забудьте изменить параметры платы перед загрузкой.
 
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
 <td>
-<p>&nbsp;</p>
+<p> </p>
 </td>
 <td>
 <p>1</p>
@@ -43,57 +43,28 @@ Don't forget to change board options before uploading when switching.
 </tr>
 <tr>
 <td>
-<p>CH340 connect to ESP8266 (upload sketch)</p>
+<p>Подключение CH340 к ESP8266 (загрузка скетча)</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>ON</p>
+<p>ВКЛ</p>
 </td>
 <td>
-<p>ON</p>
+<p>ВКЛ</p>
 </td>
 <td>
-<p>ON</p>
-</td>
-<td>
-<p>NoUSE</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>CH340 connect to ESP8266 (connect)</p>
-</td>
-<td>
-<p>OFF</p>
-</td>
-<td>
-<p>OFF</p>
-</td>
-<td>
-<p>OFF</p>
-</td>
-<td>
-<p>OFF</p>
-</td>
-<td>
-<p>ON</p>
-</td>
-<td>
-<p>ON</p>
-</td>
-<td>
-<p>OFF</p>
+<p>ВКЛ</p>
 </td>
 <td>
 <p>NoUSE</p>
@@ -101,28 +72,57 @@ Don't forget to change board options before uploading when switching.
 </tr>
 <tr>
 <td>
-<p>CH340 connect to ATmega328 (upload sketch)</p>
+<p>Подключение CH340 к ESP8266</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>ON</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>ON</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
+</td>
+<td>
+<p>NoUSE</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Подключение CH340 к ATmega328 (загрузка скетча)</p>
+</td>
+<td>
+<p>ВЫКЛ</p>
+</td>
+<td>
+<p>ВЫКЛ</p>
+</td>
+<td>
+<p>ВКЛ</p>
+</td>
+<td>
+<p>ВКЛ</p>
+</td>
+<td>
+<p>ВЫКЛ</p>
+</td>
+<td>
+<p>ВЫКЛ</p>
+</td>
+<td>
+<p>ВЫКЛ</p>
 </td>
 <td>
 <p>NoUSE</p>
@@ -133,25 +133,25 @@ Don't forget to change board options before uploading when switching.
 <p>Mega328+ESP8266</p>
 </td>
 <td>
-<p>ON</p>
+<p>ВКЛ</p>
 </td>
 <td>
-<p>ON</p>
+<p>ВКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
 <p>NoUSE</p>
@@ -159,28 +159,28 @@ Don't forget to change board options before uploading when switching.
 </tr>
 <tr>
 <td>
-<p>All modules work independent</p>
+<p>Все модули работают независимо</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
-<p>OFF</p>
+<p>ВЫКЛ</p>
 </td>
 <td>
 <p>NoUSE</p>
@@ -191,55 +191,54 @@ Don't forget to change board options before uploading when switching.
 
 <br />
 
-## Note: 
-Download and install ESP & Blynk libraries to your Arduino IDE its very important before programming (Search on YouTube you can find easily).
+## Примечание:
+Перед началом программирования обязательно скачайте и установите библиотеки ESP и Blynk в вашу среду разработки Arduino IDE (найдите информацию на YouTube, это легко сделать).
 
-## Step 1:
-- Before uploading the sketch you will need to activate the deep switches 5, 6, 7.
-- Open ESP8266_Serial sketch file in Arduino IDE.
-- Enter your WiFi details on line 35, 36.
-- Select Arduino IDE --> Tools --> Board: --> Generic ESP8266 Module.
-- Hit upload, the green led blinks till it gets uploaded.
+## Шаг 1:
+- Перед загрузкой скетча необходимо активировать переключатели 5, 6, 7.
+- Откройте файл скетча ESP8266_Serial в среде разработки Arduino IDE.
+— Введите данные вашей сети Wi-Fi в строках 35, 36.
+- Выберите Arduino IDE --> Инструменты --> Плата: --> Универсальный модуль ESP8266.
+— Нажмите кнопку «Загрузить», зеленый светодиод будет мигать, пока файл не будет загружен.
 
-## Step 2:
-- Before uploading the sketch you will need to activate the deep switches 3, 4.
-- Open Blynk_SoftwareSerialTest sketch file in Arduino IDE.
-- Replace with your Auth Token in the Blynk App on line 34. 
-  You should get Auth Token in the Blynk App.
-  Go to the Project Settings (nut icon).
-- Select Arduino IDE --> Tools --> Board: --> Arduino Uno.
-- Hit upload, the green led blinks till it gets uploaded.
-
-
+## Шаг 2:
+- Перед загрузкой скетча необходимо активировать переключатели 3 и 4.
+- Откройте файл скетча Blynk_SoftwareSerialTest в среде разработки Arduino IDE.
+- Замените на свой токен авторизации в приложении Blynk в строке 34.
+  В приложении Blynk вы должны получить токен авторизации.
+  Перейдите в настройки проекта (значок гайки).
+- Выберите Arduino IDE --> Инструменты --> Плата: --> Arduino Uno.
+— Нажмите кнопку «Загрузить», зеленый светодиод будет мигать, пока файл не будет загружен.
 
 
-## Step 3:
-After Uploading Sketches on both modules. Connect those pins as shown in the diagram. <br />
+
+
+## Шаг 3:
+После загрузки скетчей на оба модуля соедините эти контакты, как показано на схеме.
 
 ESP8266:-------------- >Arduino: <br />
 
-RXD -------------------------- 11 Pin <br />
+RXD -------------------------- 11 контактов <br />
 
-TXD -------------------------- 10 Pin <br />
+TXD -------------------------- 10 контактов <br />
 
 
 <img src="https://user-images.githubusercontent.com/23693439/118506781-0dfa4a80-b747-11eb-80cf-364dffe105fc.png" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
 <br />
 
-## Step 4:
-- To communicate between Arduino and ESP you will need to activate deep switches 1 and 2.
+## Шаг 4:
+- Для связи между Arduino и ESP необходимо активировать переключатели 1 и 2.
 
 
-Now you are all done.  <br />
-Open Blynk App and check it is connected and ready use. <br />
+Теперь всё готово.
+Откройте приложение Blynk и убедитесь, что оно подключено и готово к использованию.
 
-That's it, you are done!!!  <br />
+Вот и всё, вы закончили!!! <br />
 
 
 <br>
 
 
 _________________________________________
-#### Creating and maintaining project consume a lot of time and effort, if you would like to share your appreciation, feel free to "Star".
-
+#### Создание и поддержка проекта отнимают много времени и усилий. Если вы хотите выразить свою признательность, пожалуйста, поставьте «звездочку».
